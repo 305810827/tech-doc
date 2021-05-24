@@ -5,11 +5,11 @@ tagline:
 actionText: Quick Start →
 actionLink: /guide/
 features:
-- title: Feature 1 Title
+- title: HTML
   details: Feature 1 Description
-- title: Feature 2 Title
+- title: CSS
   details: Feature 2 Description
-- title: Feature 3 Title
+- title: JavaScript
   details: Feature 3 Description
 footer: Made by xuyanjie with ❤️
 ---

@@ -4,7 +4,7 @@ module.exports = {
   /**
    * Ref：https://v1.vuepress.vuejs.org/config/#title
    */
-  title: 'Vuepress Docs Boilerplate',
+  title: '前端文档',
   /**
    * Ref：https://v1.vuepress.vuejs.org/config/#description
    */
@@ -34,6 +34,15 @@ module.exports = {
     lastUpdated: false,
     nav: [
       {
+        text: '前端',
+        ariaLabel: 'Language Menu',
+        items: [
+          { text: 'html', link: '/frontend/html/' },
+          { text: 'css', link: '/frontend/css/' },
+          { text: 'js', link: '/frontend/js/' }
+        ]
+      },
+      {
         text: 'Guide',
         link: '/guide/',
       },
@@ -42,8 +51,8 @@ module.exports = {
         link: '/config/'
       },
       {
-        text: 'VuePress',
-        link: 'https://v1.vuepress.vuejs.org'
+        text: 'github',
+        link: 'https://github.com/305810827'
       }
     ],
     sidebar: {
@@ -54,6 +63,17 @@ module.exports = {
           children: [
             '',
             'using-vue',
+          ]
+        }
+      ],
+      '/frontend/js/': [
+        {
+          title: 'js',
+          collapsable: false,
+          children: [
+            '',
+            'array',
+            'object',
           ]
         }
       ],
